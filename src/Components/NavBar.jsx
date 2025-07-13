@@ -28,7 +28,7 @@ function NavBar() {
 
         <div className="flex items-center space-x-2">
           <i className="fa-solid fa-user-tie text-xl ml-3"></i>
-          <div className="hidden md:flex items-center flex-col"> {/* Hide on small screens if desired */}
+          <div className="hidden md:flex items-center flex-col"> 
             <p className="text-gray-800 dark:text-gray-400 font-semibold text-sm">Nitin Baluni</p>
             <p className="text-gray-500 text-xs ">baluninitin06@gmail.com</p>
           </div>

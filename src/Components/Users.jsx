@@ -5,9 +5,9 @@ function Users() {
     <div className="p-6 bg-white dark:bg-gray-800 rounded-lg shadow-md min-h-[calc(100vh-120px)]">
       <h2 className="text-3xl font-bold mb-6 text-gray-900 dark:text-gray-100">About Me</h2>
 
-      <div className="flex justify-center mb-8"> {/* Centering the image */}
+      <div className="flex justify-center mb-8"> 
         <img
-          src = {ProfileImage} // <--- IMPORTANT: Replace with the actual path to your image
+          src = {ProfileImage} 
           alt="Nittin Baluni"
           className="rounded-full w-48 h-48 object-cover shadow-lg border-4 border-gray-200 dark:border-gray-700 transition-colors duration-300"
         />

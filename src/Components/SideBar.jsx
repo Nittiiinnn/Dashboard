@@ -1,4 +1,4 @@
-// src/components/SideBar.jsx
+
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
 
@@ -9,12 +9,12 @@ function SideBar() {
     <>
 
       <button
-        className="md:hidden focus:outline-none z-50 p-0 absolute top-4 left-4" // Made absolute to float over content, adjusted padding
+        className="md:hidden focus:outline-none z-50 p-0 absolute top-4 left-4" 
         onClick={() => setIsOpen(!isOpen)}
       >
 
         <svg
-          className="w-6 h-6 p-1 text-gray-800 dark:text-gray-200" // Added p-1 for slight touch target
+          className="w-6 h-6 p-1 text-gray-800 dark:text-gray-200" 
           fill="none"
           stroke="currentColor"
           viewBox="0 0 24 24"
@@ -76,7 +76,6 @@ function SideBar() {
           </button>
         </div>
 
-        {/* Title for desktop */}
         <h1 className="hidden md:block text-2xl md:text-3xl font-bold text-gray-800 dark:text-gray-200 mb-6"> 
           Nitin Baluni
         </h1>
