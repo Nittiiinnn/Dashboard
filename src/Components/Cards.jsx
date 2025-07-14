@@ -8,8 +8,8 @@ function Cards({title,value,color,url,stats,image}) {
         blue: 'bg-blue-500',
         pink: 'bg-pink-500'
     }
-  
-  
+    
+    
     return (
     <>
         <a href={url}
